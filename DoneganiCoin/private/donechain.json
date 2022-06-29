@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "chain": [
+        {
+            "nonce": 0,
+            "timestamp": "25-06-22",
+            "transactions": "Genesis Block",
+            "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "hash": "55e3031436b5912c3ca896d68e088848d9a074cec30f4e7c6c7f705f7f6af4ad"
+        },
+        {
+            "nonce": 9431,
+            "timestamp": "25-06-22",
+            "transactions": [
+                {
+                    "fromAddress": "04881610404bf75d02079c6622b5f5ad71fc34735eeb19ea1db87f1046ba7b4f98cc403b03a84434e3098f47d58afef34669bb696578476a2c8868c26d49adf0a7",
+                    "toAddress": "04edca033e96f0c0a41a03fda5cefe669eee61e8680604d2659fd1106bf1292f520fe243de74caddc2f6345a7a06d85f60987b45de9ba1c368d7d471eac25c43de",
+                    "amount": 100,
+                    "signature": "3045022100bc64191db34920a33e1f6313ae15f0152e6afcce44792b43ffcdd93aa477c49102205567492a718543972f71ae25c23d4acc26694d7d68aa1ba64c58ae8be2351e82"
+                }
+            ],
+            "prevHash": "55e3031436b5912c3ca896d68e088848d9a074cec30f4e7c6c7f705f7f6af4ad",
+            "hash": "0008828fd9cb85b0eee3ae41ed51c356fcd9e911c230eb708fe7ca50f1f20517"
+        }
+    ],
+    "difficulty": 3,
+    "pendingTransactions": [
+        {
+            "fromAddress": null,
+            "toAddress": "04881610404bf75d02079c6622b5f5ad71fc34735eeb19ea1db87f1046ba7b4f98cc403b03a84434e3098f47d58afef34669bb696578476a2c8868c26d49adf0a7",
+            "amount": 10
+        }
+    ],
+    "miningReward": 10
+}
